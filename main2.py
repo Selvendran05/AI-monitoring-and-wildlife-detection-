@@ -85,9 +85,9 @@ from twilio.rest import Client
 def send_whatsapp_alert(counts, species=None, frame=None):
     from twilio.rest import Client
 
-    account_sid = 'ACd080076022eb4ed3472b46e938aad325'
-    auth_token = '0c4bc1e0cb78d93917b07ab5e257db81'
-    client = Client(account_sid, auth_token)
+    accid = 'ACd080076022eb4ed3472b46e938aad325'
+    authtk = '0c4bc1e0cb78d93917b07ab5e257db81'
+    client = Client(accid, authtk)
 
     recipient = 'whatsapp:+919787494341'
     twilio_number = 'whatsapp:+14155238886'
@@ -286,5 +286,5 @@ cv2.destroyAllWindows()
 #written by
 #Sakthi Manikandan T
 #dupjnhrqbrtkcwts-app pass
-#account_sid = 'ACd080076022eb4ed3472b46e938aad325'
-#auth_token = '0c4bc1e0cb78d93917b07ab5e257db81'
+#accid = 'ACd080076022eb4ed3472b46e938aad325'
+#authtk = '0c4bc1e0cb78d93917b07ab5e257db81'
